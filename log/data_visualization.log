@@ -1,0 +1,26 @@
+2024-07-22 18:56:12,905 INFO: Successfully connected to the SQLite database.
+2024-07-22 18:56:12,936 INFO: Daily trips data queried successfully.
+2024-07-22 18:56:12,960 INFO: Monthly trips data queried successfully.
+2024-07-22 18:56:19,786 INFO: Daily trends plot generated successfully.
+2024-07-22 18:56:24,188 INFO: Monthly trends plot generated successfully.
+2024-07-22 18:56:24,189 INFO: Database connection closed.
+2024-07-22 21:24:17,080 INFO: Successfully connected to the SQLite database.
+2024-07-22 21:24:17,121 INFO: Daily trips data queried successfully.
+2024-07-22 21:24:17,144 INFO: Monthly trips data queried successfully.
+2024-07-22 21:24:17,145 INFO: Database connection closed.
+2024-07-22 21:24:53,936 INFO: Daily trends plot generated successfully.
+2024-07-22 21:24:58,444 INFO: Monthly trends plot generated successfully.
+2024-07-22 21:24:58,444 INFO: Database connection closed.
+2024-07-22 21:28:05,678 INFO: Successfully connected to the SQLite database.
+2024-07-22 21:28:05,705 INFO: Daily trips data queried successfully.
+2024-07-22 21:28:05,728 INFO: Monthly trips data queried successfully.
+2024-07-22 21:28:05,729 INFO: Database connection closed.
+2024-07-22 21:28:44,258 INFO: Daily trends plot generated successfully.
+2024-07-22 21:28:46,446 INFO: Monthly trends plot generated successfully.
+2024-07-22 21:28:46,446 INFO: Database connection closed.
+2024-07-22 21:29:26,098 INFO: Successfully connected to the SQLite database.
+2024-07-22 21:29:26,125 INFO: Daily trips data queried successfully.
+2024-07-22 21:29:26,147 INFO: Monthly trips data queried successfully.
+2024-07-22 21:29:31,267 INFO: Daily trends plot generated successfully.
+2024-07-22 21:29:34,001 INFO: Monthly trends plot generated successfully.
+2024-07-22 21:29:34,002 INFO: Database connection closed.

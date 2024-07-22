@@ -1,0 +1,179 @@
+2024-07-22 18:41:44,657 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-02.parquet
+2024-07-22 18:41:44,658 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-03.parquet
+2024-07-22 18:41:44,659 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-04.parquet
+2024-07-22 18:41:44,659 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-05.parquet
+2024-07-22 18:41:44,659 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-06.parquet
+2024-07-22 18:41:44,660 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-07.parquet
+2024-07-22 18:41:44,660 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-08.parquet
+2024-07-22 18:41:44,661 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-09.parquet
+2024-07-22 18:41:44,661 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-10.parquet
+2024-07-22 18:41:44,661 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-11.parquet
+2024-07-22 18:41:44,662 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/fhvhv_tripdata_2019-12.parquet
+2024-07-22 18:41:44,662 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-01.parquet
+2024-07-22 18:41:55,735 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-01.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                          float64
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:41:55,737 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:41:55,737 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-01.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:41:56,093 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-02.parquet
+2024-07-22 18:41:56,967 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-02.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                          float64
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:41:56,969 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:41:56,969 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-02.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:41:56,990 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-03.parquet
+2024-07-22 18:41:57,747 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-03.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:41:57,748 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:41:57,749 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-03.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:41:57,770 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-04.parquet
+2024-07-22 18:41:58,688 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-04.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:41:58,689 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:41:58,690 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-04.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:41:58,714 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-05.parquet
+2024-07-22 18:41:59,667 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-05.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                       int64
+DOlocationID                       int64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:41:59,669 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:41:59,669 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-05.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:41:59,695 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-06.parquet
+2024-07-22 18:42:00,718 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-06.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                       int64
+DOlocationID                       int64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:42:00,720 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:42:00,720 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-06.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:42:00,748 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-07.parquet
+2024-07-22 18:42:01,781 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-07.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:42:01,783 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:42:01,784 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-07.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:42:01,810 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-08.parquet
+2024-07-22 18:42:02,778 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-08.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:42:02,780 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:42:02,781 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-08.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:42:02,808 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-09.parquet
+2024-07-22 18:42:03,426 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-09.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:42:03,428 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:42:03,428 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-09.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:42:03,444 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-10.parquet
+2024-07-22 18:42:04,338 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-10.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:42:04,339 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:42:04,340 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-10.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:42:04,365 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-11.parquet
+2024-07-22 18:42:05,271 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-11.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:42:05,273 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:42:05,273 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-11.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:42:05,298 INFO: Starting to process file: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-12.parquet
+2024-07-22 18:42:06,266 INFO: Schema of C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-12.parquet:
+dispatching_base_num              object
+pickup_datetime           datetime64[us]
+dropOff_datetime          datetime64[us]
+PUlocationID                     float64
+DOlocationID                     float64
+SR_Flag                           object
+Affiliated_base_number            object
+dtype: object
+2024-07-22 18:42:06,267 INFO: Renamed columns: {'dispatching_base_num': 'dispatching_base_num', 'pickup_datetime': 'pickup_datetime', 'dropOff_datetime': 'dropoff_datetime', 'PUlocationID': 'pulocationid', 'DOlocationID': 'dolocationid', 'SR_Flag': 'sr_flag', 'Affiliated_base_number': 'affiliated_base_number'}
+2024-07-22 18:42:06,267 WARNING: Required columns missing in C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/raw/fhv_tripdata_2019-12.parquet: ['trip_miles', 'base_passenger_fare']
+2024-07-22 18:42:06,293 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-01.parquet
+2024-07-22 18:42:06,293 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-02.parquet
+2024-07-22 18:42:06,294 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-03.parquet
+2024-07-22 18:42:06,295 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-04.parquet
+2024-07-22 18:42:06,295 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-05.parquet
+2024-07-22 18:42:06,295 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-06.parquet
+2024-07-22 18:42:06,296 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-07.parquet
+2024-07-22 18:42:06,296 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-08.parquet
+2024-07-22 18:42:06,297 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-09.parquet
+2024-07-22 18:42:06,297 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-10.parquet
+2024-07-22 18:42:06,297 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-11.parquet
+2024-07-22 18:42:06,298 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/green_tripdata_2019-12.parquet
+2024-07-22 18:42:06,298 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-01.parquet
+2024-07-22 18:42:06,298 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-02.parquet
+2024-07-22 18:42:06,299 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-03.parquet
+2024-07-22 18:42:06,299 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-04.parquet
+2024-07-22 18:42:06,299 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-05.parquet
+2024-07-22 18:42:06,300 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-06.parquet
+2024-07-22 18:42:06,300 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-07.parquet
+2024-07-22 18:42:06,300 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-08.parquet
+2024-07-22 18:42:06,301 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-09.parquet
+2024-07-22 18:42:06,301 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-10.parquet
+2024-07-22 18:42:06,301 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-11.parquet
+2024-07-22 18:42:06,301 INFO: File already processed: C:\Users\satwa\OneDrive\Desktop\D2k_project\ETL_project\src\../data/processed/yellow_tripdata_2019-12.parquet

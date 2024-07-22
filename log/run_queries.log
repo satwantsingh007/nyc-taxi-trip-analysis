@@ -1,0 +1,52 @@
+2024-07-22 19:09:05,805 INFO: Successfully connected to the SQLite database.
+2024-07-22 19:09:05,806 INFO: Executing query: -- queries.sql
+
+-- Query for daily trips in 2019 and 2020
+SELECT date, SUM(total_trips) AS total_trips
+FROM Taxi_trip
+WHERE strftime('%Y', date) IN ('2019', '2020')
+GROUP BY date
+ORDER BY date
+2024-07-22 19:09:05,846 INFO: Query result:
+           date  total_trips
+0    2019-01-01       405520
+1    2019-01-02       433350
+2    2019-01-03       487688
+3    2019-01-04       514356
+4    2019-01-05       510936
+..          ...          ...
+461  2020-06-16            8
+462  2020-06-28            2
+463  2020-07-04           10
+464  2020-07-08            2
+465  2020-07-25            2
+
+[466 rows x 2 columns]
+2024-07-22 19:09:05,847 INFO: Executing query: -- Query for monthly trips in 2019 and 2020
+SELECT strftime('%Y-%m-01', date) AS month, SUM(total_trips) AS total_trips
+FROM Taxi_trip
+WHERE strftime('%Y', date) IN ('2019', '2020')
+GROUP BY month
+ORDER BY month
+2024-07-22 19:09:05,880 INFO: Query result:
+         month  total_trips
+0   2019-01-01     16603540
+1   2019-02-01     55512704
+2   2019-03-01     64595640
+3   2019-04-01     59399888
+4   2019-05-01     60794152
+5   2019-06-01     56796418
+6   2019-07-01     53997792
+7   2019-08-01     53119256
+8   2019-09-01     53961868
+9   2019-10-01     57508686
+10  2019-11-01     57673916
+11  2019-12-01     58214372
+12  2020-01-01          438
+13  2020-02-01          192
+14  2020-03-01          100
+15  2020-04-01           84
+16  2020-05-01           68
+17  2020-06-01           32
+18  2020-07-01           14
+2024-07-22 19:09:05,880 INFO: Database connection closed.
