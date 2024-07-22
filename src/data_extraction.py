@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import logging
 
-# Constants
+# Define constants
 BASE_URL = 'https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page'
 YEAR = 2019
 script_dir = os.path.dirname(os.path.abspath(__file__))
